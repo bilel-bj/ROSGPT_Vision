@@ -1,0 +1,33 @@
+Task_name: driver phone usage
+
+ROSGPT_Vision_Camera_Node:
+  Image_Description_Method: llava # you can choose between [llava, MiniGPT4, SAM]
+  Vision_prompt: "describe the driver's state, if the driver focuses on the road or drink coffee, Answer with one short sentence."
+  # Vision_prompt: "Based on the visual description, provide a consultation to the driver about their current level of focus on driving, Answer with one short sentence."
+  # Vision_prompt: "Based on the visual description, provide a consultation to the driver about their current level of focus on driving, Answer with one short sentence."
+
+#, if the driver focuses on the road or not. Reply with a one short sentence only.
+  Vision_prompt_SAM: "Question: Describe the state of the driver? Answer:" # SAM
+  # you can choose between video or webcam!!
+  choose_input: 'video' # [webcam, video]
+  # Input_sequence: "/home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/Input_video/Test_prompts.mp4"
+  Input_sequence: "/home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/dataset/Cup/video.mp4"
+  Output_video: "/home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/output_video/new_video_1"
+
+GPT_Consultation_Node:
+  llm_prompt: '''Consider the following ontology:
+  You must write your Reply with one short sentence. Behave as a carmate that surveys the driver and gives him advice and instruction to drive safely. 
+  You will be given human language prompts describing an image. Your task is to provide appropriate instructions to the driver based on the description.
+  '''
+  GPT_temperature: 0.2
+
+MiniGPT4_parameters:
+  configuration: "/home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/minigpt4_eval.yaml"
+  temperature_miniGPT4: 0.2
+
+llava_parameters:
+  temperature_llava: 0.2
+  llama_version: "13B" # you can choose between [13B, 7B]
+
+SAM_parameters:
+  weights_SAM: "/home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/Weights_captions_models/sam_vit_h_4b8939.pth"

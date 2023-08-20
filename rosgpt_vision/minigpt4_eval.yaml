@@ -1,0 +1,24 @@
+model:
+  arch: mini_gpt4
+  model_type: pretrain_vicuna
+  freeze_vit: True
+  freeze_qformer: True
+  max_txt_len: 160
+  end_sym: "###"
+  low_resource: True
+  prompt_path: "/home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/Weights_captions_models/Alignment_miniGPT_4/alignment_Driver.txt"
+  prompt_template: '###Human: {} ###Assistant: '
+  # ckpt: '/home/anas/Anas_CODES/MiniGPT_folder/Use-LLMs-in-Colab/MiniGPT-4/pretrained_minigpt4.pth'
+  ckpt: '/home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/Weights_captions_models/pretrained_minigpt4_7b_stage1.pth'
+datasets:
+  cc_sbu_align:
+    vis_processor:
+      train:
+        name: "blip2_image_eval"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+
+run:
+  task: image_text_pretrain

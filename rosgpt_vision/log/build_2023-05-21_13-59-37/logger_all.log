@@ -1,0 +1,550 @@
+[0.454s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rosgpt']
+[0.454s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rosgpt'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc4513f9a50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc452338280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc452338280>>)
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.481s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anas/ros2_ws/src/rosgpt/rosgpt'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'ros'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extensions ['cmake', 'python']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'cmake'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'python'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extensions ['python_setup_py']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4) by extension 'python_setup_py'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/build) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/build) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/build) ignored
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'ros'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extensions ['cmake', 'python']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'cmake'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'python'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extensions ['python_setup_py']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/dataset) by extension 'python_setup_py'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/eval_configs) by extension 'python_setup_py'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/examples) by extension 'python_setup_py'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extensions ['python_setup_py']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs) by extension 'python_setup_py'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extensions ['python_setup_py']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/figs/examples) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/install) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/install) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/install) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/log) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/log) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/log) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extensions ['cmake', 'python']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'cmake'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'python'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extensions ['python_setup_py']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'ros'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'python'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/__pycache__) by extension 'python_setup_py'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'ros'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'python'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common) by extension 'python_setup_py'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'cmake'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/common/__pycache__) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'cmake'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extensions ['cmake', 'python']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'cmake'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'python'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extensions ['python_setup_py']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets) by extension 'python_setup_py'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extensions ['cmake', 'python']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'cmake'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'python'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extensions ['python_setup_py']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/cc_sbu) by extension 'python_setup_py'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'ros'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/datasets/laion) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'ros'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/configs/models) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/conversation/__pycache__) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/__pycache__) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'python'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extensions ['python_setup_py']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/builders/__pycache__) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'ros'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extensions ['cmake', 'python']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'cmake'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'python'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extensions ['python_setup_py']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'ros'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extensions ['cmake', 'python']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/datasets/datasets/__pycache__) by extension 'python_setup_py'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models) by extension 'python_setup_py'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/models/__pycache__) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/processors/__pycache__) by extension 'python_setup_py'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners) by extension 'python_setup_py'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/runners/__pycache__) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'ros'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extensions ['cmake', 'python']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'cmake'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'python'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/minigpt4/tasks/__pycache__) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'ros'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extensions ['cmake', 'python']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'cmake'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'python'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/prompts) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'ros'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extensions ['cmake', 'python']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'cmake'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'python'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extensions ['python_setup_py']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(MiniGPT-4/train_configs) by extension 'python_setup_py'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'ros'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extensions ['cmake', 'python']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'cmake'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'python'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extensions ['python_setup_py']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(prompts) by extension 'python_setup_py'
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.518s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'rosgpt' in --packages-select
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.550s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/anas/ros2_ws/src/rosgpt/rosgpt/MiniGPT-4/install
+[0.557s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /home/anas/ros2_ws/install
+[0.560s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/humble
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.633s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.637s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.643s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.651s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.657s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/local_setup.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/_local_setup_util_ps1.py'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/setup.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/local_setup.sh'
+[0.667s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/_local_setup_util_sh.py'
+[0.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/setup.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/local_setup.bash'
+[0.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/setup.bash'
+[0.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/local_setup.zsh'
+[0.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_ws/src/rosgpt/rosgpt/install/setup.zsh'
