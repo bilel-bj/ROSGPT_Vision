@@ -1,0 +1,12 @@
+run first terminal : colcon build --packages-select rosgpt_vision
+		     source install/setup.bash
+		     python3 src/rosgpt_vision/rosgpt_vision/rosgpt_vision_node_web_cam.py
+		     python3 src/rosgpt_vision/rosgpt_vision/ROSGPT_Vision_Camera_Node.py /home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/cfg/driver_phone_usage.yaml
+run second terminal: colcon build --packages-select rosgpt_vision 
+		     "you can remove first code"
+		     source install/setup.bash
+		     python3 src/rosgpt_vision/rosgpt_vision/ROSGPT_Vision_GPT_Consultation_Node.py /home/anas/ros2_ws/src/rosgpt_vision/rosgpt_vision/cfg/driver_phone_usage.yaml
+run third terminal:  ros2 topic echo /Image_Description
+run fourth terminal:  ros2 topic echo /GPT_Consultation
+
+		     
