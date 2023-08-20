@@ -1,8 +1,12 @@
 # ROSGPT_Vision: Executing Robotic tasks using only prompts
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
+[Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
 
-[ <a href="https://colab.research.google.com/drive/121vw11QLKSPyvoKd38JqA8FEg0dpyvIQ?authuser=1#scrollTo=1Qg9U72pCjSF"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>](https://colab.research.google.com/drive/121vw11QLKSPyvoKd38JqA8FEg0dpyvIQ?authuser=1#scrollTo=1Qg9U72pCjSF)
+
+
+---
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
 
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be)
 
