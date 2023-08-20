@@ -24,6 +24,15 @@ ROSGPT_Vision is a cutting-edge robotics framework that seamlessly integrates la
 
 ROSGPT_Vision offers a unified platform that allows robots to perceive, interpret, and interact with visual data through natural language. The framework leverages state-of-the-art language models, including [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [SAM](https://github.com/ttengwang/Caption-Anything), to facilitate advanced reasoning about image data. The provided implementation includes the CarMate application, a driver monitoring and assistance system designed to ensure safe and efficient driving experiences.
 
+## Video Demo
+
+[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be)
+
+An illustrative video demonstration of ROSGPT_Vision is provided.
+
+[![ROSGPT Video Demonstration](https://img.youtube.com/vi/urkQD-hB5Hg/0.jpg)](https://www.youtube.com/watch?v=urkQD-hB5Hg)
+
+
 ## Installation
 #### To use ROSGPT_Vision, follow these steps:
 **1. Prepare the code and the environment**
