@@ -2,8 +2,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
 
-
 [ <a href="https://colab.research.google.com/drive/121vw11QLKSPyvoKd38JqA8FEg0dpyvIQ?authuser=1#scrollTo=1Qg9U72pCjSF"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>](https://colab.research.google.com/drive/121vw11QLKSPyvoKd38JqA8FEg0dpyvIQ?authuser=1#scrollTo=1Qg9U72pCjSF)
+
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be)
 
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png" width="1000" height="700"/>
