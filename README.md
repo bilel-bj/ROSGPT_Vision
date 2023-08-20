@@ -17,6 +17,7 @@ ROSGPT_Vision is a cutting-edge robotics framework that seamlessly integrates la
 - [Usage](#Usage)
 - [Citation](#Citation)
 - [License](#license)
+- [Acknowledgement](#Acknowledgement)
 - [Contribute](#Contribute)
 
 ## Overview
@@ -123,6 +124,10 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You are free to use, share, and adapt this material for non-commercial purposes, as long as you provide attribution to the original author(s) and the source.
+
+## Acknowledgement
+
+The codes are based on [ROSGPT](https://github.com/aniskoubaa/rosgpt), [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) and [SAM](https://github.com/ttengwang/Caption-Anything). Please also follow their licenses. Thanks for their awesome works.
 
 ## Contribute
 
