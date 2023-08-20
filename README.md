@@ -1,4 +1,4 @@
-# ROSGPT Vision: Executing Robotic tasks using only a Visual and an LLM prompt
+# ROSGPT_Vision: Executing Robotic tasks using only prompts
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
 
@@ -16,6 +16,7 @@ ROSGPT_Vision is a cutting-edge robotics framework that seamlessly integrates la
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License](#license)
+- [Contribute](#Contribute)
 
 ## Overview
 
@@ -111,6 +112,17 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 
 ## License
 
-State the license under which your project is released. You can provide a link to the full license file. For example:
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You are free to use, share, and adapt this material for non-commercial purposes, as long as you provide attribution to the original author(s) and the source.
 
-This project is licensed under the [MIT License](LICENSE).
+## Contribute
+
+As this project is still under progress, contributions are welcome! To contribute, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes and push them to your fork.
+4. Create a pull request to the main repository.
+
+Before submitting your pull request, please ensure that your changes do not break the build and adhere to the project's coding style.
+
+For any questions or suggestions, please open an issue on the [GitHub issue tracker](https://github.com/bilel-bj/ROSGPT_Vision/issues).
