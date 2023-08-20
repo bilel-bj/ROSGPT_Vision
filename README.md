@@ -22,7 +22,7 @@ ROSGPT_Vision is a cutting-edge robotics framework that seamlessly integrates la
 
 ## Overview
 
-ROSGPT_Vision offers a unified platform that allows robots to perceive, interpret, and interact with visual data through natural language. The framework leverages state-of-the-art language models, including [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [SAM](https://github.com/ttengwang/Caption-Anything), to facilitate advanced reasoning about image data. The provided implementation includes the CarMate application, a driver monitoring and assistance system designed to ensure safe and efficient driving experiences.
+ROSGPT_Vision offers a unified platform that allows robots to perceive, interpret, and interact with visual data through natural language. The framework leverages state-of-the-art language models, including [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [Caption-Anything](https://github.com/facebookresearch/segment-anything), to facilitate advanced reasoning about image data. The provided implementation includes the CarMate application, a driver monitoring and assistance system designed to ensure safe and efficient driving experiences.
 
 ## Video Demo
 
@@ -41,6 +41,8 @@ An illustrative video demonstration of ROSGPT_Vision is provided.
 
 ```bash
   git clone https://github.com/ROSGPT_Vision.git
+  git clone https://github.com/Vision-CAIR/MiniGPT-4.git rosgpt_vision
+  git clone https://github.com/haotian-liu/LLaVA.git rosgpt_vision
   cd ROSGPT_Vision
   conda env create -f environment.yml
   conda activate ROSGPT_Vision
@@ -50,7 +52,7 @@ An illustrative video demonstration of ROSGPT_Vision is provided.
 
 **2. Install the required dependencies**
 
-- You can run image_semantics.py by install all required dependencies from [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [SAM](https://github.com/ttengwang/Caption-Anything).
+- You can run image_semantics.py by install all required dependencies from [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) and [Caption-Anything](https://github.com/facebookresearch/segment-anything).
 
 - Ensure the installation of all requisite dependencies for ROS2.
 
@@ -136,7 +138,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ## Acknowledgement
 
-The codes are based on [ROSGPT](https://github.com/aniskoubaa/rosgpt), [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) and [SAM](https://github.com/ttengwang/Caption-Anything). Please also follow their licenses. Thanks for their awesome works.
+The codes are based on [ROSGPT](https://github.com/aniskoubaa/rosgpt), [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), [Caption-Anything](https://github.com/facebookresearch/segment-anything) and [SAM](https://github.com/ttengwang/Caption-Anything). Please also follow their licenses. Thanks for their awesome works.
 
 ## Contribute
 
