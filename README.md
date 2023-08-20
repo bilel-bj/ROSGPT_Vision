@@ -15,6 +15,7 @@ ROSGPT_Vision is a cutting-edge robotics framework that seamlessly integrates la
 - [Overview](#Overview)
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [Citation](#Citation)
 - [License](#license)
 - [Contribute](#Contribute)
 
@@ -39,9 +40,9 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 
 **2. Install the required dependencies**
 
-  You can run image_semantics.py by install all required dependencies from [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [SAM](https://github.com/ttengwang/Caption-Anything).
+- You can run image_semantics.py by install all required dependencies from [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [SAM](https://github.com/ttengwang/Caption-Anything).
 
-  Install ROS2.
+- Ensure the installation of all requisite dependencies for ROS2.
 
 
 
@@ -109,7 +110,16 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 
 ```bash ros2 topic echo /GPT_Consultation ```   
 
+## Citation
 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
+
+    @article{liang2021swinir,
+      title={SwinIR: Image Restoration Using Swin Transformer},
+      author={Liang, Jingyun and Cao, Jiezhang and Sun, Guolei and Zhang, Kai and Van Gool, Luc and Timofte, Radu},
+      journal={arXiv preprint arXiv:2108.10257},
+      year={2021}
+    }
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You are free to use, share, and adapt this material for non-commercial purposes, as long as you provide attribution to the original author(s) and the source.
