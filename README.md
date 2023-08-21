@@ -10,7 +10,7 @@
 
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be)
 
-<img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png" width="900" height="900"/>
+<img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png" width="900" height="600"/>
 
 ROSGPT_Vision is a cutting-edge robotics framework that seamlessly integrates large language models (LLMs) with computer vision capabilities to enhance human-robot interaction and understanding. This repository contains the open-source implementation of ROSGPT_Vision, as described in the academic paper "ROSGPT Vision: Executing Robotic tasks using only a Visual and an LLM prompt".
 
