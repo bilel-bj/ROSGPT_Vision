@@ -14,10 +14,18 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
 
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be)
+[![YouTube](https://badges.aleen42.com/src/youtube.svg)]([https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be](https://youtu.be/_OhBXB2UtF4))
+
+
+
+## Video Demo
+
+
+An illustrative video demonstration of ROSGPT_Vision is provided:
+
+[![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png)](https://www.youtube.com/watch?v=urkQD-hB5Hg)
 
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png" width="900" height="600"/>
-
 
 
 ## Table of Contents
@@ -37,13 +45,7 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
   
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/IRM_Diagram%20(1).png" width="800" height="500"/>
 
-## Video Demo
 
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be)
-
-An illustrative video demonstration of ROSGPT_Vision is provided.
-
-[![ROSGPT Video Demonstration](https://img.youtube.com/vi/urkQD-hB5Hg/0.jpg)](https://www.youtube.com/watch?v=urkQD-hB5Hg)
 
 
 ## Installation
