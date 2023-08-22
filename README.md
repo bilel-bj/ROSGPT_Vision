@@ -12,22 +12,20 @@
 - More details are described in the academic paper "ROSGPT_Vision: Commanding Robots using only Language Models' Prompts".
 
 # Video Demo
-
 An illustrative video demonstration of ROSGPT_Vision is provided:
-
 [![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/video_thumbnail.png)](https://www.youtube.com/watch?v=urkQD-hB5Hg)
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [ROSGPT_Vision_diagram](#rOSGPT_Vision diagram)
-- [Prompting Robotic Modalities (PRM)](#Prompting Robotic Modalities (PRM))
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Citation](#Citation)
+- [ROSGPT_Vision diagram](#rosgpt_vision-diagram)
+- [Prompting Robotic Modalities (PRM) Design Pattern](#prompting-robotic-modalities-prm-design-pattern)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Citation](#citation)
 - [License](#license)
-- [Acknowledgement](#Acknowledgement)
-- [Contribute](#Contribute)
+- [Acknowledgement](#acknowledgement)
+- [Contribute](#contribute)
 
 ## Overview
 
@@ -35,7 +33,7 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 ## ROSGPT_Vision diagram
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png" width="900" height="600"/>
 
-## Prompting Robotic Modalities (PRM) Design Pattern:
+## Prompting Robotic Modalities (PRM) Design Pattern
 - A new design approach emphasizing modular and individualized sensory queries.
 - Uses specific Modality Language Models (MLM) for textual interpretations of inputs, like the Vision Language Model (VLM) for visual data.
 - Ensures precise data collection by treating each sensory input separately.
