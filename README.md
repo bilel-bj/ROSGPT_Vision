@@ -3,6 +3,10 @@
 [Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](ARXIV_LINK)
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/_OhBXB2UtF4)
+
+Robotics and Internet of Things Lab (RIOTU Lab), Prince Sultan University, Saudi Arabia
+
+------------------------------------------------------------------------------------------------------------------------------------------
 - **ROSGPT_Vision** is a new robotic framework dsigned to command robots using only two prompts:
 	- a **Visual Prompt** (for visual semantic features), and
  	- an **LLM Prompt** (to regulate robotic reactions).
@@ -39,7 +43,7 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 - Ensures precise data collection by treating each sensory input separately.
 - Task Modality's Role: Serves as the central coordinator, synthesizing data from various modalities.
 
-** for more information go to [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
+** for more information go to [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](ARXIV_LINK)
   
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/IRM_Diagram%20(1).png" width="800" height="500"/>
 
@@ -134,14 +138,10 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 
 ## Citation
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](ARXIV_LINK)
 
-    @article{liang2021swinir,
-      title={SwinIR: Image Restoration Using Swin Transformer},
-      author={Liang, Jingyun and Cao, Jiezhang and Sun, Guolei and Zhang, Kai and Van Gool, Luc and Timofte, Radu},
-      journal={arXiv preprint arXiv:2108.10257},
-      year={2021}
-    }
+    ARXIV_LINK
+    
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You are free to use, share, and adapt this material for non-commercial purposes, as long as you provide attribution to the original author(s) and the source.
