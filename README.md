@@ -2,7 +2,7 @@
 
 [Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)]([https://www.youtube.com/watch?v=__tftoxpBAw&feature=youtu.be](https://youtu.be/_OhBXB2UtF4))
+[![YouTube](https://badges.aleen42.com/src/youtube.svg)]([https://youtu.be/_OhBXB2UtF4])
 - **ROSGPT_Vision** is a new robotic framework dsigned to command robots using only two prompts:
 	- a **Visual Prompt** (for visual semantic features), and
  	- an **LLM Prompt** (to regulate robotic reactions).
@@ -13,7 +13,7 @@
 
 # Video Demo
 An illustrative video demonstration of ROSGPT_Vision is provided:
-[![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/video_thumbnail.png)]([https://www.youtube.com/watch?v=urkQD-hB5Hg](https://www.youtube.com/watch?v=_OhBXB2UtF4))
+[![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/video_thumbnail.png)](https://youtu.be/_OhBXB2UtF4)
 
 ## Table of Contents
 
