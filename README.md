@@ -1,8 +1,8 @@
 # ROSGPT_Vision: Commanding Robots Using Only Language Models' Prompts
 
 [Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)]([https://youtu.be/_OhBXB2UtF4])
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](ARXIV_LINK)
+[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/_OhBXB2UtF4)
 - **ROSGPT_Vision** is a new robotic framework dsigned to command robots using only two prompts:
 	- a **Visual Prompt** (for visual semantic features), and
  	- an **LLM Prompt** (to regulate robotic reactions).
