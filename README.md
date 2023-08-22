@@ -13,7 +13,7 @@
 
 # Video Demo
 An illustrative video demonstration of ROSGPT_Vision is provided:
-[![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/video_thumbnail.png)](https://www.youtube.com/watch?v=urkQD-hB5Hg)
+[![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/video_thumbnail.png)]([https://www.youtube.com/watch?v=urkQD-hB5Hg](https://www.youtube.com/watch?v=_OhBXB2UtF4))
 
 ## Table of Contents
 
