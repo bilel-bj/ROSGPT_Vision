@@ -1,8 +1,14 @@
-# ROSGPT Vision: Commanding Robots using only Prompts
+# ROSGPT_Vision: Commanding Robots Using Only Language Models' Prompts
 
 [Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
 
-
+- **ROSGPT_Vision** is a new robotic framework dsigned to command robots using only two prompts:
+	- a **Visual Prompt** (for visual semantic features), and
+ 	- an **LLM Prompt** (to regulate robotic reactions).
+- It is based on a new robotic design pattern: **Prompting Robotic Modalities (PRM)**.
+- **ROSGPT_Vision** is used to develop **CarMate**, a robotic application for  monitoring driver distractions and providing real-time vocal notifications. It showcases cost-effective development.
+- We demonstrated how to optimize the prompting strategies to improve the application.
+- More details are described in the academic paper "ROSGPT_Vision: Commanding Robots using only Language Models' Prompts".
 
 ---
 
@@ -12,7 +18,7 @@
 
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png" width="900" height="600"/>
 
-ROSGPT_Vision is a cutting-edge robotics framework that seamlessly integrates large language models (LLMs) with computer vision capabilities to enhance human-robot interaction and understanding. This repository contains the open-source implementation of ROSGPT_Vision, as described in the academic paper "ROSGPT Vision: Executing Robotic tasks using only a Visual and an LLM prompt".
+
 
 ## Table of Contents
 
