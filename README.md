@@ -138,7 +138,7 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 
 ## Citation
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](ARXIV_LINK)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
 
     ARXIV_LINK
     
