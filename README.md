@@ -1,7 +1,7 @@
 # ROSGPT_Vision: Commanding Robots Using Only Language Models' Prompts
 
 [Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](ARXIV_LINK)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/_OhBXB2UtF4)
 
 Robotics and Internet of Things Lab (RIOTU Lab), Prince Sultan University, Saudi Arabia
