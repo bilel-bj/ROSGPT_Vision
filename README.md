@@ -43,7 +43,7 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 - Ensures precise data collection by treating each sensory input separately.
 - Task Modality's Role: Serves as the central coordinator, synthesizing data from various modalities.
 
-** for more information go to [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](ARXIV_LINK)
+** for more information go to [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
   
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/IRM_Diagram%20(1).png" width="800" height="500"/>
 
