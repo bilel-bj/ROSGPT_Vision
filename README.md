@@ -140,7 +140,14 @@ ROSGPT_Vision offers a unified platform that allows robots to perceive, interpre
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
 
-    ARXIV_LINK
+    @misc{benjdira2023rosgptvision,
+      title={ROSGPT_Vision: Commanding Robots Using Only Language Models' Prompts}, 
+      author={Bilel Benjdira and Anis Koubaa and Anas M. Ali},
+      year={2023},
+      eprint={2308.11236},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+      }
     
 ## License
 
