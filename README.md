@@ -4,7 +4,10 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/nYnpzSCaMyw)
 
-Robotics and Internet of Things Lab (RIOTU Lab), Prince Sultan University, Saudi Arabia
+**Robotics and Internet of Things Lab (RIOTU Lab), Prince Sultan University, Saudi Arabia**
+
+Inspired by  [ROSGPT](https://github.com/aniskoubaa/rosgpt). Both projects aim to bridge the gap between robotics, natural language understanding, and image analysis. 
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 - **ROSGPT_Vision** is a new robotic framework dsigned to command robots using only two prompts:
