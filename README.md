@@ -35,15 +35,15 @@ An illustrative video demonstration of ROSGPT_Vision is provided:
 
 ## Overview
 
-ROSGPT_Vision offers a unified platform that allows robots to perceive, interpret, and interact with visual data through natural language. The framework leverages state-of-the-art language models, including [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [Caption-Anything](https://github.com/facebookresearch/segment-anything), to facilitate advanced reasoning about image data. The provided implementation includes the CarMate application, a driver monitoring and assistance system designed to ensure safe and efficient driving experiences.
+**ROSGPT_Vision** offers a unified platform that allows robots to perceive, interpret, and interact with visual data through natural language. The framework leverages state-of-the-art language models, including [LLAVA](https://github.com/haotian-liu/LLaVA), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), and [Caption-Anything](https://github.com/facebookresearch/segment-anything), to facilitate advanced reasoning about image data. [LangChain](https://github.com/langchain-ai/langchain) is used for easy customization of the prompts. The provided implementation includes the **CarMate** application, a driver monitoring and assistance system designed to ensure safe and efficient driving experiences.
 ## ROSGPT_Vision diagram
 <img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/ROSGPT_Vision.png" width="900" height="600"/>
 
 ## Prompting Robotic Modalities (PRM) Design Pattern
 - A new design approach emphasizing modular and individualized sensory queries.
-- Uses specific Modality Language Models (MLM) for textual interpretations of inputs, like the Vision Language Model (VLM) for visual data.
+- Uses specific **Modality Language Models (MLM)** for textual interpretations of inputs, like the **Vision Language Model (VLM)** for visual data.
 - Ensures precise data collection by treating each sensory input separately.
-- Task Modality's Role: Serves as the central coordinator, synthesizing data from various modalities.
+- **Task Modality**'s Role: Serves as the central coordinator, synthesizing data from various modalities.
 
 ** for more information go to [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
   
