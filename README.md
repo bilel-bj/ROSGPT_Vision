@@ -2,7 +2,7 @@
 
 [Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/_OhBXB2UtF4)
+[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/nYnpzSCaMyw)
 
 Robotics and Internet of Things Lab (RIOTU Lab), Prince Sultan University, Saudi Arabia
 
@@ -13,11 +13,13 @@ Robotics and Internet of Things Lab (RIOTU Lab), Prince Sultan University, Saudi
 - It is based on a new robotic design pattern: **Prompting Robotic Modalities (PRM)**.
 - **ROSGPT_Vision** is used to develop **CarMate**, a robotic application for  monitoring driver distractions and providing real-time vocal notifications. It showcases cost-effective development.
 - We demonstrated how to optimize the prompting strategies to improve the application.
+- LangChain framework is used by to easily customize prompts.
 - More details are described in the academic paper "ROSGPT_Vision: Commanding Robots using only Language Models' Prompts".
+
 
 # Video Demo
 An illustrative video demonstration of ROSGPT_Vision is provided:
-[![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/video_thumbnail.png)](https://youtu.be/_OhBXB2UtF4)
+[![ROSGPT Video Demonstration](https://github.com/bilel-bj/ROSGPT_Vision/blob/main/video_thumbnail.png)](https://youtu.be/nYnpzSCaMyw)
 
 ## Table of Contents
 
