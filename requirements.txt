@@ -5,7 +5,7 @@ action-tutorials-interfaces==0.20.3
 action-tutorials-py==0.20.3
 actionlib-msgs==4.2.3
 aiofiles==23.1.0
-aiohttp==3.8.4
+#aiohttp==3.8.4
 aiosignal==1.3.1
 altair==4.2.2
 ament-clang-format==0.12.6
@@ -54,7 +54,7 @@ cachetools==5.3.0
 cartographer-ros-msgs==2.0.9000
 catalogue==2.0.8
 cchardet==2.1.7
-certifi==2023.5.7
+#certifi==2023.5.7
 cffi==1.15.1
 cfgv==3.3.1
 chardet==5.1.0
@@ -70,7 +70,7 @@ contourpy==1.0.7
 control-msgs==4.4.0
 controller-manager==2.26.0
 controller-manager-msgs==2.26.0
-cryptography==41.0.1
+#cryptography==41.0.1
 cv-bridge==3.2.1
 cycler==0.11.0
 cymem==2.0.7
@@ -122,7 +122,7 @@ generate-parameter-library-py==0.3.3
 geometry-msgs==4.2.3
 gitdb==4.0.10
 #GitPython==3.1.31
-gradio==3.23.0
+#gradio==3.23.0
 gradio_client==0.2.5
 greenlet==2.0.2
 h11==0.14.0
@@ -311,7 +311,7 @@ rcl-interfaces==1.2.1
 rclpy==3.3.8
 rcutils==5.1.3
 regex==2022.10.31
-requests==2.30.0
+#requests==2.30.0
 resource-retriever==3.1.1
 rfc3339-validator==0.1.4
 rfc3986==1.5.0
@@ -446,7 +446,7 @@ torchaudio==2.0.2
 torchmetrics==0.11.4
 torchsummary==1.5.1
 torchvision==0.15.2
-tornado==6.3.2
+#tornado==6.3.2
 tqdm==4.64.1
 tracetools-launch==4.1.1
 tracetools-read==4.1.1
@@ -454,7 +454,7 @@ tracetools-test==4.1.1
 tracetools-trace==4.1.1
 traitlets==5.9.0
 trajectory-msgs==4.2.3
-transformers==4.29.2
+#transformers==4.29.2
 triton==2.0.0
 turtlebot3-example==2.1.5
 turtlebot3-msgs==2.2.3
