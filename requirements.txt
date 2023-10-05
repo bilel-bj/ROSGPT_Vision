@@ -471,7 +471,7 @@ umap-learn==0.5.3
 unique-identifier-msgs==2.2.1
 unstructured==0.7.1
 uri-template==1.2.0
-urllib3==1.26.15
+#urllib3==1.26.15
 uvicorn==0.22.0
 validators==0.20.0
 virtualenv==20.23.0
