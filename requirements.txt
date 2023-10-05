@@ -257,7 +257,7 @@ pendulum-msgs==0.20.3
 pexpect==4.8.0
 pgui==0.1
 pickleshare==0.7.5
-Pillow==9.5.0
+#Pillow==9.5.0
 pinecone-client==2.2.1
 platformdirs==3.5.1
 plotly==5.14.1
