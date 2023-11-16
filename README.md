@@ -94,7 +94,7 @@ Meanwhile, the second box generates the alert that should be given to the driver
   Git clone our repository, creating a python environment and ativate it via the following command
 
 ```bash
-  git clone https://github.com/ROSGPT_Vision.git
+  git clone https://github.com/bilel-bj/ROSGPT_Vision.git
   git clone https://github.com/Vision-CAIR/MiniGPT-4.git rosgpt_vision
   git clone https://github.com/haotian-liu/LLaVA.git rosgpt_vision
   cd ROSGPT_Vision
