@@ -148,7 +148,7 @@ itsdangerous==2.1.2
 jax==0.4.10
 jaxlib==0.4.10
 jedi==0.18.2
-Jinja2==3.1.2
+#Jinja2==3.1.2
 joblib==1.2.0
 jsonpointer==2.3
 jsonschema==4.17.3
@@ -413,7 +413,7 @@ statistics-msgs==1.2.1
 std-msgs==4.2.3
 std-srvs==4.2.3
 stereo-msgs==4.2.3
-streamlit==1.22.0
+#streamlit==1.22.0
 svgwrite==1.4.3
 sympy==1.12
 teleop-twist-keyboard==2.3.2
