@@ -104,7 +104,7 @@ examples-rclpy-pointcloud-publisher==0.15.1
 examples-tf2-py==0.25.2
 executing==1.2.0
 fairscale==0.4.4
-fastapi==0.95.2
+#fastapi==0.95.2
 fastjsonschema==2.17.0
 ffmpy==0.3.0
 filelock==3.12.0
@@ -408,7 +408,7 @@ SQLAlchemy==2.0.15
 sros2==0.10.4
 srsly==2.4.6
 stack-data==0.6.2
-starlette==0.27.0
+#starlette==0.27.0
 statistics-msgs==1.2.1
 std-msgs==4.2.3
 std-srvs==4.2.3
