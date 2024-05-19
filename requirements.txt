@@ -476,7 +476,7 @@ uvicorn==0.22.0
 validators==0.20.0
 virtualenv==20.23.0
 visualization-msgs==4.2.3
-wandb==0.15.3
+#wandb==0.15.3
 wasabi==1.1.1
 watchdog==3.0.0
 wavedrom==2.0.3.post3
