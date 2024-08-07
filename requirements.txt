@@ -441,7 +441,7 @@ toml==0.10.2
 tomli==2.0.1
 toolz==0.12.0
 topic-monitor==0.20.3
-torch==2.0.1
+#torch==2.0.1
 torchaudio==2.0.2
 torchmetrics==0.11.4
 torchsummary==1.5.1
