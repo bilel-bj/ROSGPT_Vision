@@ -178,20 +178,23 @@ Meanwhile, the second box generates the alert that should be given to the driver
 
 ## Citation
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167739X25000184">
+  <img src="https://sdfestaticassets-eu-west-1.sciencedirectassets.com/prod/44c3817e58b49348a73e63fb998fb7b2924522e1/image/elsevier-non-solus.png" alt="arXiv" width="100" height="50">
+</a>
 
-@article{BENJDIRA2025107723,
-title = {Prompting Robotic Modalities (PRM): A structured architecture for centralizing language models in complex systems},
-journal = {Future Generation Computer Systems},
-volume = {166},
-pages = {107723},
-year = {2025},
-issn = {0167-739X},
-doi = {https://doi.org/10.1016/j.future.2025.107723},
-url = {https://www.sciencedirect.com/science/article/pii/S0167739X25000184},
-author = {Bilel Benjdira and Anis Koubaa and Anas M. Ali},
-keywords = {Expert systems architectures, Robotics, Languages models in robotics, Prompting robotic modalities, Large language models, LLMs, Vision language models, VLMs, Robotic operating system, ROS, ROS2, Robotic prompt engineering, Visual prompt, LLM prompt},
-}
+
+	@article{BENJDIRA2025107723,
+	title = {Prompting Robotic Modalities (PRM): A structured architecture for centralizing language models in complex systems},
+	journal = {Future Generation Computer Systems},
+	volume = {166},
+	pages = {107723},
+	year = {2025},
+	issn = {0167-739X},
+	doi = {https://doi.org/10.1016/j.future.2025.107723},
+	url = {https://www.sciencedirect.com/science/article/pii/S0167739X25000184},
+	author = {Bilel Benjdira and Anis Koubaa and Anas M. Ali},
+	keywords = {Expert systems architectures, Robotics, Languages models in robotics, Prompting robotic modalities, Large language models, LLMs, Vision language models, VLMs, Robotic operating system, ROS, ROS2, Robotic prompt engineering, Visual prompt, LLM prompt},
+	}
     
 ## License
 
