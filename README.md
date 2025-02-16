@@ -2,8 +2,11 @@
 
 [Bilel Benjdira](https://github.com/bilel-bj), [Anis Koubaa](https://github.com/aniskoubaa) and [Anas M. Ali](https://github.com/AnasHXH)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/nYnpzSCaMyw)
+[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/nYnpzSCaMyw) <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167739X25000184">
+  <img src="https://sdfestaticassets-eu-west-1.sciencedirectassets.com/prod/44c3817e58b49348a73e63fb998fb7b2924522e1/image/elsevier-non-solus.png" alt="arXiv" width="100" height="50">
+</a>
 
+<img src="https://github.com/bilel-bj/ROSGPT_Vision/blob/main/paper.png" width="900" height="600"/>
 **Robotics and Internet of Things Lab (RIOTU Lab), Prince Sultan University, Saudi Arabia**
 
 Inspired by  [ROSGPT](https://github.com/aniskoubaa/rosgpt). Both projects aim to bridge the gap between robotics, natural language understanding, and image analysis. 
