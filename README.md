@@ -180,14 +180,18 @@ Meanwhile, the second box generates the alert that should be given to the driver
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.11236)
 
-    @misc{benjdira2023rosgptvision,
-      title={ROSGPT_Vision: Commanding Robots Using Only Language Models' Prompts}, 
-      author={Bilel Benjdira and Anis Koubaa and Anas M. Ali},
-      year={2023},
-      eprint={2308.11236},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-      }
+@article{BENJDIRA2025107723,
+title = {Prompting Robotic Modalities (PRM): A structured architecture for centralizing language models in complex systems},
+journal = {Future Generation Computer Systems},
+volume = {166},
+pages = {107723},
+year = {2025},
+issn = {0167-739X},
+doi = {https://doi.org/10.1016/j.future.2025.107723},
+url = {https://www.sciencedirect.com/science/article/pii/S0167739X25000184},
+author = {Bilel Benjdira and Anis Koubaa and Anas M. Ali},
+keywords = {Expert systems architectures, Robotics, Languages models in robotics, Prompting robotic modalities, Large language models, LLMs, Vision language models, VLMs, Robotic operating system, ROS, ROS2, Robotic prompt engineering, Visual prompt, LLM prompt},
+}
     
 ## License
 
